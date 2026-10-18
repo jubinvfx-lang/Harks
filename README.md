@@ -1,30 +1,33 @@
-# HARKS Creative Marketing & Production Website
+# HARKS Website
 
-A responsive, static website for HARKS. No npm, build step, or paid hosting is required.
+Modern responsive static website for HARKS — Creative Marketing & Production Studio.
 
-## Files
-- `index.html` — website content and sections
-- `styles.css` — responsive styling and animations
-- `script.js` — mobile navigation, package selection, reveal animations, and enquiry form
+## Included
+- `index.html` — website content, pricing, portfolio concepts and enquiry section
+- `style.css` — responsive dark theme, electric blue/violet accents, layout and animations
+- `script.js` — mobile navigation, reveal animations, package enquiry prefill, and email enquiry form
 
-## Before publishing
-1. Open `script.js`.
-2. Set `HARKS_CONFIG.contactEmail` to the real business email address.
-3. Optionally set `HARKS_CONFIG.whatsappNumber` if you want to add a WhatsApp contact button later.
-4. Replace the sample stock photos with your own approved portfolio images and video thumbnails when ready.
-5. Check the prices, service scope, tax wording, and package inclusions before accepting client bookings.
+## Contact details configured
+- Email: jubinvfx@gmail.com
+- Phone: +91 63749 15615
+- WhatsApp: https://wa.me/916374915615
 
-The enquiry form uses a `mailto:` draft, so it opens the visitor's email app rather than submitting to a server. A backend or form service is needed for direct form submissions. The site currently uses external Google Fonts and Unsplash images, so those assets need an internet connection.
+## Preview locally
+Open `index.html` in a modern browser. No build step or npm installation is needed.
 
-## Free deployment option: GitHub Pages
-1. Create a GitHub repository named `harks-website`.
-2. Upload `index.html`, `styles.css`, `script.js`, and `README.md` to the repository root (not inside an extra nested folder).
-3. In the repository, open **Settings → Pages**.
-4. Under the build/deployment section, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-5. Wait for GitHub Pages to publish the site. The public address will appear in the Pages settings.
+## Publish with GitHub Pages
+1. Extract the ZIP.
+2. Open your existing GitHub repository named `Harks`.
+3. Upload/replace `index.html`, `style.css`, `script.js`, and `README.md` in the repository root.
+4. Commit the changes to the `main` branch.
+5. In **Settings → Pages**, ensure GitHub Pages is publishing from the `main` branch and `/ (root)`.
+6. Open the published URL after GitHub Pages finishes deploying.
 
-## Alternative: Vercel
-1. Import the GitHub repository into Vercel.
-2. Choose the **Other** framework preset if asked.
-3. Leave the build command empty and set the output directory to `.` if the interface requires it.
-4. Deploy. This is a static site; no `package.json` is needed.
+The existing project URL previously used was:
+https://jubinvfx-lang.github.io/Harks/
+
+## Important notes
+- The enquiry form opens the visitor's default email application with a prefilled message; it does not send or store form data by itself.
+- The portfolio artwork is illustrative concept artwork made with CSS. Replace or supplement it with real work before presenting it as client work.
+- Prices are indicative starting rates in INR. Update scope, taxes and final prices to match each written quotation.
+- Google Fonts are loaded online. System font fallbacks are included.
